@@ -8,51 +8,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" type="image/x-icon">
+    
 </head>
 <body>
-    <div class="menu-container">
+    <header class="menu-container">
         <img src="/images/dog.png" alt="" class="dog-image">
-        <ul class="menu-list">
-            <li class="menu-item">
-                <a href="home.html" class="menu-link">
-                    <div class="show-title">Home</div>
-                </a>
-            </li>
-            <li class="menu-item">
-            <a href="about.html" class="menu-link">
-                <div class="show-title">About Me</div>
-            </a>
-            </li>
-            <li class="menu-item">
-                <a href="mailto:chandlerscharles840@gmail.com?subject=Contact me" class="menu-link"> 
-                    <div class="show-title">Email Me</div>
-                </a>
-            </li>
-        </ul> 
-    </div>
+        <nav class="menu-list">
+                <a href="home.html" class="menu-link">Home</a>
+                <a href="about.html" class="menu-link">About</a>
+                <a href="contact.html" class="menu-link">Contact</a>
+                <!-- <a href="mailto:chandlerscharles840@gmail.com?subject=Contact me" class="menu-link">Email Me</a> -->
+        </nav> 
+    </header>
     <div class="body-container">
-    <img src="images/developer-image.png" alt="" class="dev-image">
-    <h2 class="gwendolyn-bold">
-        Elevated. Elegant. Efficient.
-    </h2>
-    <h3 class="gwendolyn-regular">
-        Web Deveolpment.
-    </h3>
+        <h2 class="gwendolyn-bold">
+            Elevated. Elegant. Efficient.
+        </h2>
+        <h3 class="gwendolyn-regular">
+            Web Deveolpment.
+        </h3>
+        <div class="body-container">
+            <img src="images/developer-image.png" alt="dev photo" class="dev-image">
+        </div>
     </div>
-    <!-- <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
-        <input type="hidden" name="subject" value="Contact">
-        <textarea class="hidden" name="body">
-          Name:
-          Contact Phone:
-          Contact Email:
-          Reason for Request:
-        </textarea>
-        <button type="submit" class="button">Book Appointment</button>
-      </form> -->
-      <br>
-      <img src="/images/navajo-image.jpg" alt="nav" class="navajo">
-      <img src="/images/seattle-image.jpg" alt="sea" class="seattle">
-      <br>
-      
+    <div class="images-container">
+        <img src="/images/navajo-image.jpg" alt="Window Rock, AZ Image" class="navajo">
+        <img src="/images/seattle-image.jpg" alt="Seattle Skyline Image" class="seattle"> 
+        <p>Hello World Welcome, this is another thing we got gonig on</p>
+    </div>
+    <div class="video-container">
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> 
+    </div>
+    <footer class="footer-container"> 
+        <a href="home.html"><img src="/images/email-logo.png" alt="email" class="footer-image"></a>
+        <a href="about.html"><img src="/images/linkedin-image.png" alt="linkedin" class="footer-image"></a>
+        <a href="home.html"><img src="/images/github-image.png" alt="github" class="footer-image"></a>
+    </footer>
 </body>
 </html>

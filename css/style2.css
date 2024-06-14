@@ -1,11 +1,10 @@
-.show-title {
+.menu-link{
     background-color: black;
     color: white;
     transition: opacity 0.3s ease;
     display: inline-flex;
     padding-right: 50px;
   }
-
 .menu-container {
     background-color: black;
     padding: 1px;
@@ -16,15 +15,6 @@
     list-style-type: none;
     padding: 3px;
     margin: 3px;
-}
-/* Menu Item Styles */
-.menu-item {
-    display: inline-block;
-}
-.header-name {
-    text-align: center;
-    background-color: grey;
-    font-size: 50px;
 }
 .p-1{
     width:50%;
@@ -49,45 +39,37 @@
   }
   .gwendolyn-regular {
     font-family: "Gwendolyn", cursive;
-    font-weight: 300;
+    font-weight: 800;
     font-style: normal;
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
     color: white;
   }
   .gwendolyn-bold {
     font-family: "Gwendolyn", cursive;
-    font-weight: 700;
+    font-weight: 1000;
     font-style: normal;
-    font-size: 55px;
+    font-size: 60px;
     text-align: center;
     margin-top: 1px;
     padding-top: 50px;
     color: white;
   }
   body{
-    background-color: #333130;
-  }
-  footer{
-    background-color: aqua;
-    margin:1px;
-    padding:50px;
-    text-align: center;
+    background-color: #c9a593;
   }
   .navajo{
     width: 200px;
     height: 150px;
-    float:right;
   }
   .seattle{
     width:200px;
     height: 150px;
-    float:left;
   }
   .dev-image{
     float: right;
-    width:50%;
-    margin-top: 50px;
+    width:30%;
+    margin-top: 20px;
     padding-right: 50px;
 }
 .dog-image{
@@ -98,9 +80,53 @@
 }
 .mtn-image{
     float:right;
+    width: 60%;
+    padding: 50px 50px 50px 50px;
 }
-.email-image{
-    width: 60px;
-    height:60px;
-    border
+.footer-image{
+    width:50px;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+}
+.header-name{
+    background-color: grey;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-size: 50px;
+}
+.body-container{
+    display: grid;
+}
+.images-container{
+   display: grid;
+   float:left
+}
+.video-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+}
+.footer-container{
+    display: absolute;
+    padding-top: 8px;
+    width:100%;
+    height:20%;
+    background-color: #6f625b;
+    text-align: center;
+}
+.contact{
+    text-align:center;
+    font-size: 50px;
+    font: bold;
+}
+.message{
+    width:100%;
+}
+.google-maps{
+    width: 100%;
+}
+.name-input, .number, .message{
+    display: block;
 }
