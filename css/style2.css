@@ -42,6 +42,15 @@
     font-weight: 600;
     font-style: normal;
     font-size: 50px;
+    /* padding-top: 100px; */
+    text-align: center;
+    padding:20px;
+  }
+  .press-start-2p-regular-2 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
     padding-top: 100px;
     text-align: center;
   }
@@ -49,14 +58,14 @@
     background-color: #c9a593;
   }
   .navajo{
-    width: 200px;
-    height: 150px;
-    display: left;
+    width: 100%;
+    height: 100%;
+    display: inline;
   }
   .seattle{
-    width:200px;
-    height: 150px;
-    display: right;
+    width:100%;
+    height: 100%;
+    display: inline;
   }
   .dev-image{
     width:100%;
@@ -94,7 +103,8 @@ h1{
     display: grid;
     justify-content: center;
     align-items: center;
-    padding-left: 20%;
+    padding: 20px;
+    width: 100%;
 }
 .text-container{
     display: grid;
@@ -144,7 +154,6 @@ h1{
   background: #3B5998;
   color: white;
 }
-
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
