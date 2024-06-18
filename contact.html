@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/dog.png" type="image/x-icon">
 </head>
 <body>
     <header class="menu-container">
@@ -15,8 +20,26 @@
                 <a href="contact.html" class="menu-link">Contact</a>
         </nav> 
     </header>
-    <h1 class="contact">Contact Us</h1>
-    <form action="mailto:yourEmail@gmail.com" method="post" enctype="text/plain">
+    <h1 class="press-start-2p-regular">Contact Us</h1>
+    <form name="contact" netlify>
+        <p><label for="name">Name: <input class="p1" type="text" name="name" placeholder="Name"/></label></p>
+        <p><label for="email">Email: <input class="p1" type="email" name="email" placeholder="Email"/></label></p>
+        <p><label for="number" >Number: <input class="p1" type="text" name="number" placeholder="Phone Number"></label></p>
+        <p><label for="subject">Subject: <input class="p1" type="text" name="subject" placeholder="Subject"></label></p>
+        <p><label for="message">Message<input class="message" type="text" name="message" placeholder="Tell us about yourself"></label></p>
+        <p><button type="submit">Submit</button></p>
+    </form>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172153.33373691142!2d-122.33979794999996!3d47.608715000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1718152243142!5m2!1sen!2sus" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google-maps"></iframe>
+    </div>
+    <footer class="footer-container"> 
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://x.com/?lang=en" class="fa fa-twitter"></a>
+    </footer>
+</body>
+</html>
+ <!-- <form action="mailto:yourEmail@gmail.com" method="post" enctype="text/plain">
         <label for="first-name" class="name-input">Name:</label>
         <input type="text" id="name-input" name="name-input" class="name-input" placeholder=" Name">
         <label for="email" class="email-input">Email:</label>
@@ -29,29 +52,4 @@
         <br>
         <label for="text" name="message"> Message</label>
         <input type="text" name="subject" class="message" placeholder="Tell us about yourself...">
-        <button>button</button>
-
-
-    </form>
-    <form name="contact" netlify>
-        <p>
-          <label>Name <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Email <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-    </form>
-
-    <p>GOOGLE MAPS</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172153.33373691142!2d-122.33979794999996!3d47.608715000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1718152243142!5m2!1sen!2sus" 
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google-maps"></iframe>
-      <footer class="footer-container"> 
-        <a href="home.html"><img src="/images/email-logo.png" alt="email" class="footer-image"></a>
-        <a href="about.html"><img src="/images/linkedin-image.png" alt="linkedin" class="footer-image"></a>
-        <a href="home.html"><img src="/images/github-image.png" alt="github" class="footer-image"></a>
-    </footer>
-</body>
-</html>
+    </form> -->
